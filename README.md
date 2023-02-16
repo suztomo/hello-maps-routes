@@ -28,7 +28,10 @@ OS name: "linux", version: "5.19.11-1rodete1-amd64", arch: "amd64", family: "uni
 
 ## Run in IntelliJ
 
-Open this project in IntelliJ. Make the IDE recognize it as Maven project.
+Open this project in IntelliJ. Make the IDE recognize it as Maven project (
+See "Maven" panel on the right in the screenshot below).
+
+![how-to-run-in-intelliJ.png](how-to-run-in-intelliJ.png)
 
 Run Main.java.
 
@@ -38,7 +41,8 @@ RoutesSettings: RoutesSettings{executorProvider=null, backgroundExecutorProvider
 Client: com.google.maps.routing.v2.RoutesClient@16c63f5
 ```
 
-If you see the messages above, then it succeeded to instantiate `RoutesClient`.
+If you see the messages above in "Run" panel at the bottom, then it succeeded
+to instantiate `RoutesClient`.
 
 ## Run in Maven
 
